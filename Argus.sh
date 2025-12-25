@@ -1,1 +1,5 @@
-Echo "Hello world"
+#!/bin/bash
+
+CPU=$(top)
+
+Echo "CPU status: $CPU"
