@@ -1,1 +1,1 @@
-#ARGUS - A system monitor writen in bash
+# ARGUS - A system monitor writen in bash #
