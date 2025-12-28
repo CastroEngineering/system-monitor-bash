@@ -1,6 +1,10 @@
 #!/bin/bash
 
-read -p "Choose an attribute (CPU/RAM/Storage/Uptime/Connection/All)" Choice
+exitProgram=false
+
+until exitProgram; do
+
+read -p "Choose an attribute (All/CPU/RAM/Storage/Uptime/Connection)" Choice
 
 
 #CPU=$(top)
@@ -17,4 +21,17 @@ if (( Choice == "All" )); then
 #echo "Uptime: $Uptime"
 
 echo "Connection test: $Connection"
+
+elif ((Choice == "CPU")); then
+
+#echo "CPU status: $CPU"
+
+else 
+
+echo "No choice made, certified you have typed exactly as writen"
+
 fi
+
+read -p "Do you wish to continue? [Y/n]"
+
+done
