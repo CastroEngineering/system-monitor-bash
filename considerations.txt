@@ -1,0 +1,4 @@
++ Use [] for comparisons
++ Never forget to put $ (dolar sign) when calling a variable
++ For string variables, wrap them around "" (double quotes) for word avaluation safty
++ There is no way to alter two variable inside a function if they both have the same name, the global one will be shadowed
